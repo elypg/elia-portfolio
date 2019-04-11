@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   color: #333133;
   background-color: #f0f0f0;
@@ -9,6 +10,14 @@ body {
   display: inline;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 1000px;
 }
 
 .logo img {
@@ -25,6 +34,8 @@ h1 {
   font-size: 31px;
   font-weight: medium;
   text-transform: uppercase;
+  /* display: flex;
+  justify-content: space-around; */
 }
 
 h2 {
@@ -44,4 +55,19 @@ button {
   font-size: 29px;
   background-color: #4d4aff;
   color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-section {
+  width: 50%;
+  height: 500px;
 }
