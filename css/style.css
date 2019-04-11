@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #333133;
+  background-color: #f0f0f0;
+}
+.menu li {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 40%;
+}
+
+h1,
+h2,
+button {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 31px;
+  font-weight: medium;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: medium;
+  line-height: 40px;
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 29px;
+  background-color: #4d4aff;
+  color: #fff;
+}
