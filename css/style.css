@@ -36,6 +36,7 @@ h2 {
   font-size: 60px;
   letter-spacing: 4px;
   margin: 0%;
+  /* border-bottom: 0.8rem solid #333133; */
 }
 
 a {
@@ -133,6 +134,26 @@ section {
   width: 45%;
 }
 
+/*PROJECTS*/
+
+.line-dim {
+  height: 0.7rem;
+  width: 3.8rem;
+  background: #333133;
+}
+
+.line-capstone {
+  height: 0.7rem;
+  width: 7.8rem;
+  background: #333133;
+}
+
+.line-ooblets {
+  height: 0.7rem;
+  width: 7.8rem;
+  background: #333133;
+}
+
 .description {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
@@ -193,6 +214,7 @@ section {
   margin-right: 6%;
   height: 12%;
   position: relative;
+  margin-bottom: 1.5rem;
 }
 
 .project-image {
@@ -235,6 +257,8 @@ section {
   flex-direction: row;
 }
 
+/*ABOUT*/
+
 .about {
   margin-top: 6rem;
   display: flex;
@@ -243,21 +267,10 @@ section {
 }
 
 .hi {
-  display: flex;
-  position: absolute;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 124px;
-}
-.about-text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  color: #333133;
-  text-indent: 13rem;
-  margin-left: 3rem;
-  margin-right: -1rem;
+  margin-left: -3rem;
 }
 
 .about-section {
@@ -268,12 +281,28 @@ section {
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.about-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #333133;
+  margin-left: 3rem;
+  margin-right: -1rem;
 }
 
 .about-section img {
   width: 100%;
   margin-top: 2%;
   margin-left: -1rem;
+  margin-top: -12%;
+}
+
+.about-section img:hover {
+  -webkit-filter: brightness(50%);
 }
 
 .bg-about {
@@ -287,4 +316,22 @@ section {
 .about-links {
   color: #6ccbac;
   font-weight: 600;
+}
+
+.about-links:hover {
+  background-color: #fae793;
+  border-radius: 0.2rem;
+}
+
+/*FOOTER*/
+
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  text-transform: lowercase;
+  display: flex;
+  justify-content: space-around;
+  color: #333133;
 }
