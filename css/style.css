@@ -245,7 +245,6 @@ section {
 .hi {
   display: flex;
   position: absolute;
-  z-index: 2;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 124px;
@@ -283,4 +282,9 @@ section {
 }
 .bg-about img {
   margin-left: -2rem;
+}
+
+.about-links {
+  color: #6ccbac;
+  font-weight: 600;
 }
