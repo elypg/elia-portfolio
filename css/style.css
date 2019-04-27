@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 0;
+  margin: 0%;
 }
 
 h2,
@@ -53,10 +53,10 @@ header {
 }
 
 nav {
-  width: 21.5%;
+  /* width: 21.5%; */
   margin-right: 3rem;
-  margin-top: 1rem;
-  min-width: 20%;
+  margin-top: 2rem;
+  /* min-width: 20%; */
 }
 
 .menu {
@@ -73,6 +73,11 @@ nav {
   font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 2px;
+  padding-right: 4rem;
+}
+
+.menu li:last-child {
+  padding-right: 0;
 }
 
 a:hover,
@@ -228,6 +233,10 @@ section {
   width: 55%;
 }
 
+.project-web {
+  margin-bottom: 14rem;
+}
+
 .back-project,
 .back-project-ooblets {
   z-index: -3;
@@ -244,7 +253,7 @@ section {
 }
 
 .back-project img,
-.back-project-ooblets {
+.back-project-ooblets img {
   width: 100%;
 }
 
@@ -254,7 +263,41 @@ section {
 
 .project-music {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 100%;
+  height: 125vh;
+}
+
+.cover-container {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.project-cover {
+  width: 50%;
+  /* height: 100%; */
+  margin: 0%;
+}
+
+#project-1 {
+  background: center / cover no-repeat url(cocotown-cover.png);
+}
+
+#project-2 {
+  background: center / cover no-repeat url(crownofthorns-cover.png);
+}
+
+#project-3 {
+  background: center / cover no-repeat url(thehunter-cover.png);
+}
+
+#project-4 {
+  background: center / cover no-repeat url(thelostisland-cover.png);
+}
+
+.project-music img {
+  width: 100%;
 }
 
 /*ABOUT*/
@@ -334,4 +377,9 @@ section {
   display: flex;
   justify-content: space-around;
   color: #333133;
+}
+
+@media max-width: 600px {
+  header {
+  }
 }
