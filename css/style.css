@@ -85,6 +85,21 @@ nav {
   padding-right: 0;
 }
 
+.scroll-top {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  position: fixed;
+  z-index: -10;
+  bottom: 30px;
+  right: 30px;
+}
+
+.visible {
+  z-index: 3;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
 .line-work {
   height: 0.3rem;
   width: 1.6rem;
