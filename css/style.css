@@ -78,7 +78,7 @@ nav {
   text-transform: lowercase;
   letter-spacing: 2px;
   padding-right: 4rem;
-  width: 100px;
+  width: 120px;
 }
 
 .menu li:last-child {
@@ -98,6 +98,12 @@ nav {
   z-index: 3;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+}
+
+#Home-Copy-6:hover,
+#scroll-top:hover {
+  stroke: #fae791;
+  fill: #fae791;
 }
 
 .line-work {
@@ -127,6 +133,10 @@ nav {
 a:hover,
 a:active {
   font-weight: bold;
+  /* color: #6ccbac; */
+  /* font-size: 2rem;
+  transition: ease-in-out;
+  transition-duration: 0.1s; */
 }
 
 a:hover + .line-work {
@@ -179,7 +189,6 @@ section:last-child {
 .presentation {
   font-size: 1.7rem;
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 2px;
   position: absolute;
   bottom: 16%;

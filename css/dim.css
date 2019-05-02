@@ -1,0 +1,60 @@
+.mini-logo img {
+  width: 90px;
+}
+
+nav {
+  width: 100%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.menu {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.mini-logo {
+  z-index: 1;
+}
+
+.mini-logo:hover img {
+  /* width: 4rem; */
+  transition: 0.1s ease-in-out;
+  transform: scale(1.1);
+}
+
+.presentation {
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 16%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+  font-style: oblique;
+  text-transform: initial;
+}
+
+section {
+  height: 100vh;
+}
+
+.introduction {
+  background-color: #fff6eb;
+  z-index: -2;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -2.5rem;
+}
