@@ -139,15 +139,15 @@ a:active {
   transition-duration: 0.1s; */
 }
 
-a:hover + .line-work {
+a:hover+.line-work {
   display: block;
 }
 
-a:hover + .line-about {
+a:hover+.line-about {
   display: block;
 }
 
-a:hover + .line-contact {
+a:hover+.line-contact {
   display: block;
 }
 
@@ -420,6 +420,7 @@ section:last-child {
   align-items: center;
   flex-direction: column;
 }
+
 .about-section img {
   width: 100%;
   margin-top: 2%;
@@ -441,6 +442,7 @@ section:last-child {
   z-index: -4;
   position: absolute;
 }
+
 .bg-about img {
   margin-left: -2rem;
 }
@@ -482,6 +484,5 @@ section:last-child {
 }
 
 @media max-width: 600px {
-  header {
-  }
+  header {}
 }

@@ -58,3 +58,57 @@ section {
   position: absolute;
   bottom: -2.5rem;
 }
+
+.iphones {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 60vh;
+  margin-top: 15rem;
+}
+
+.iphones img {
+  width: 80%;
+}
+
+.iphones-image {
+  z-index: -2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.line-dim2 {
+  height: 0.4rem;
+  width: 6rem;
+  background: #333133;
+}
+
+.dim-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dim-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  text-align: center;
+  margin-right: 20rem;
+  margin-left: 20rem;
+  margin-top: 4rem;
+}
+
+.the-project {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
