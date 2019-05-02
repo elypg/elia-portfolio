@@ -112,3 +112,69 @@ section {
   justify-content: center;
   flex-direction: column;
 }
+
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  position: relative;
+  height: 70vh;
+}
+
+.journey {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150vh;
+  align-items: center;
+}
+
+
+.journey-image {
+  background-color: #F3C14E;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+
+
+.gallery {
+  margin-right: 10rem;
+  margin-left: 10rem;
+  margin-top: 20rem;
+  height: 350vh;
+}
+
+section:last-child {
+  height: 150vh;
+}
+
+.dim-illustration img {
+  width: 100%;
+}
+
+.prototype {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150vh;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+
+
+.line-tryme {
+  height: 0.6rem;
+  width: 6rem;
+  background: #333133;
+}
+
+.invision-prototype {
+  margin-left: 6rem;
+  transform: scale(.8)
+}
