@@ -28,7 +28,7 @@ h2,
   left: 0;
   background-size: 10%;
   background-blend-mode: soft-light;
-  opacity: 0.06;
+  opacity: 0.03;
 }
 
 h2 {
@@ -316,6 +316,7 @@ section:last-child {
 
 .project-web {
   margin-bottom: 8rem;
+  position: relative;
 }
 
 .back-project,
@@ -391,12 +392,44 @@ section:last-child {
 
 /*ABOUT*/
 
-.about {
+/* .about {
   margin-top: 6rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  height: 100vh;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  position: relative;
+} */
+
+.about {
+  margin-top: 25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  position: relative;
+  margin-bottom: -5rem;
+}
+
+.bg-about {
+  z-index: -4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bg-about img {
+  margin-left: -2rem;
+  width: 50%;
+  height: 50%;
 }
 
 .hi {
@@ -406,13 +439,9 @@ section:last-child {
   margin-left: -3rem;
 }
 
-.about {
-  height: 100vh;
-}
-
 .about-section {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   margin-right: 3rem;
   margin-left: 3rem;
   margin-bottom: 3rem;
@@ -423,9 +452,7 @@ section:last-child {
 
 .about-section img {
   width: 100%;
-  margin-top: 2%;
   margin-left: -1rem;
-  margin-top: -12%;
 }
 
 .about-text {
@@ -436,15 +463,6 @@ section:last-child {
   color: #333133;
   margin-left: 3rem;
   margin-right: -1rem;
-}
-
-.bg-about {
-  z-index: -4;
-  position: absolute;
-}
-
-.bg-about img {
-  margin-left: -2rem;
 }
 
 .about-links {
@@ -483,10 +501,8 @@ section:last-child {
   color: #a4a2a2;
 }
 
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { */
+@media only screen and (max-width: 600px) {
   nav {
     margin-top: 2rem;
     /* width: 100%; */
@@ -529,5 +545,184 @@ section:last-child {
     margin-right: 2rem;
     position: absolute;
     margin-left: 1rem;
+  }
+
+  .back-project img {
+    width: 200%;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    margin-top: 6rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  back-project,
+  .back-project-ooblets {
+    z-index: -3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back-project-ooblets img {
+    width: 170%;
+  }
+
+  .project-section {
+    width: 80%;
+    height: 22rem;
+    margin: 0;
+  }
+
+  .description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+  }
+
+  .see-more {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #fae793;
+    color: #333133;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 12px 68px;
+    border: none;
+    position: absolute;
+    margin-top: 3rem;
+  }
+
+  .capstone {
+    flex-direction: column-reverse;
+    margin-top: -5rem;
+  }
+
+  .back-capstone {
+    margin-top: 7rem;
+  }
+
+  .project-web {
+    margin-bottom: 8rem;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    position: relative;
+  }
+
+  .back-project-ooblets {
+    overflow: hidden;
+    padding-left: 0%;
+  }
+
+  .project-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 2rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem;
+    width: 100%;
+  }
+
+  .project-image img {
+    width: 80%;
+  }
+
+  .project-music {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 160vh;
+    margin-bottom: 4rem;
+  }
+
+  .cover-container {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    flex-direction: column;
+  }
+
+  section:last-child {
+    height: 100vh;
+  }
+
+  .bg-about img {
+    margin-left: -2rem;
+    width: 180%;
+    overflow: hidden;
+  }
+
+  .about {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+  .about-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333133;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: -4rem;
+    margin-top: 2rem;
+  }
+
+  .about-section img {
+    width: 80%;
+  }
+
+  .hi {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-left: -2rem;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  section:last-child {
+    height: 80vh;
+  }
+
+  .overflow {
+    overflow: hidden;
   }
 }
